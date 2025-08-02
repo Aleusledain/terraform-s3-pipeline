@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_first_bucket" {
-  bucket = "my-first-real-bucket-1"  # Replace with your own unique name!
+  bucket = "my-first-real-bucket-1"
   acl    = "private"
 
   tags = {
