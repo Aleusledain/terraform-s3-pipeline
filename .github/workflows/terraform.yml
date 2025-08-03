@@ -1,4 +1,4 @@
-name: Terraform Apply to AWS
+name: Terraform Deploy to AWS
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   terraform:
-    name: Terraform Job
+    name: Terraform Apply
     runs-on: ubuntu-latest
 
     env:
