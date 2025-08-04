@@ -1,4 +1,4 @@
-name: Terraform Deploy to AWS
+name: Terraform Destroy to AWS
 
 on:
   push:
@@ -29,5 +29,5 @@ jobs:
       - name: Terraform Plan
         run: terraform plan
 
-      - name: Terraform Apply
-        run: terraform apply -auto-approve
+      - name: Terraform Destroy
+        run: terraform destroy -auto-approve
